@@ -5,7 +5,7 @@
 #     dict_2[i] = len(i)
 #
 # print(dict_2)
-
+import random
 
 # print(dict(map(lambda x: (x, len(x)), dict_1.values())))
 
@@ -23,3 +23,7 @@
 #
 # print(dict_2)
 #
+
+
+
+
