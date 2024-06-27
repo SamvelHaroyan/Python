@@ -11,10 +11,10 @@ class Person:
         self.lastName = lastName
         self.age = age
 
-    def run(self, m):
+    def run(self, m):  # instance method
         return f"{self.name} runs {m} meter."
 
-    def __str__(self):
+    def __str__(self):  # nra hamar e vor aranc functionu kanchelu karoxananq kanchenq iran prosty grelov print("obyekti anuny")
         return f"{self.name} {self.lastName}"
 
 
