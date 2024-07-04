@@ -84,13 +84,13 @@ class ParkingLot:
         else:
             print("Parking is full")
 
-    def release(self, car):
+    def durs_gal(self, car):
         if car.car_id in self.parked:
-            hours = int(input("enter hours:"))
+            hours = int(input("Enter hours:"))
             summ = hours * 500
             self.cash += summ
             del self.parked[car.car_id]
-            print(f"Gumaey {summ} dram.")
+            print(f"Gumary {summ} dram.")
         else:
             print("Car is not found")
 
@@ -113,7 +113,7 @@ parking_lot.park(c3)
 
 print(f"Tex mnac : {parking_lot.tex_mnac()}")
 
-parking_lot.release(c1)
-print(parking_lot.tex_mnac())
+parking_lot.durs_gal(c1)
+print(f"Tex mnac : {parking_lot.tex_mnac()}")
 
 print(parking_lot.summa())
