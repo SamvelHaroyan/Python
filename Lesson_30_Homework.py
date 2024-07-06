@@ -26,7 +26,6 @@
 #     def get_actors(self):
 #         return self.__actors
 #
-#     # Setters
 #     def set_current_episode(self, episode):
 #         self.__current_episode = episode
 #
